@@ -1,0 +1,1279 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant"
+    }, {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Transport"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Attraction"
+    }, {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+    }, {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Event"
+    }, {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasCoordinates"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HotelStars"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasStars"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "If a hotel has a rating that is an instance of HighRating, then the hotel is a LuxuryHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid33"
+    }, {
+      "@id" : "_:genid31"
+    }, {
+      "@id" : "_:genid29"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid35"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HighRating"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones/h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasRating"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones/h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones/h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#LuxuryHotel"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Attraction"
+    }, {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Attraction"
+    }, {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Event"
+    }, {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant"
+    }, {
+      "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Transport"
+    } ]
+  } ]
+}, {
+  "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#116",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Price"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#227",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Price"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Price"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#3Stars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HotelStars"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasRating" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating3_9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Price"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#5Stars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HotelStars"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Price"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#8.85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Price"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#AndalusianRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A restaurant specializing in Andalusian cuisine, characterized by rich Mediterranean flavors and regional Spanish dishes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Andalusian Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Andaluza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Attraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An attraction is a place or point of interest that draws visitors for its cultural, historical, natural, or recreational value."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Attraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Autobús",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Beach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A beach is a tourist attracion by the seaside."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Beach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Beach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Attraction"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#CulturalAttraction"
+  }, {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Monument"
+  }, {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Museum"
+  }, {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Park"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#BeachHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A beach hotel is a hotel located near or with direct access to the beach, catering primarily to vacationers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BeachHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Bicicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A two-wheeled vehicle powered by pedaling, commonly used for personal transport and recreation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bycicle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Bicicleta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Bilbao",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasCityId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "6"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasCoordinates" : [ {
+    "@value" : "43.2630,-2.9350"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#name" : [ {
+    "@value" : "Bilbao"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Bus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A road vehicle designed to carry multiple passengers along predetermined routes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#BusinessHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A business hotel is a hotel designed to accommodate business travelers, often offering services such as conference rooms, Wi-Fi, and business centers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BusinessHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A city is a place where a community of people live"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Congreso_Bilbao",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2024-12-01"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Bilbao"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#name" : [ {
+    "@value" : "Congreso Bilbao"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#CulturalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A beach is a seaside tourist attraction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Beach"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#CountrysideHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A countryside hote is a hotel situated in rural or natural settings, ideal for guests seeking relaxation or eco-tourism experiences."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CountrysideHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#CulinaryEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Culinary event is an event related to gastronomy, where food, beverages, or culinary traditions are showcased, promoted, or celebrated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Culinary event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#CulturalAtraccion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#CulturalAttraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A cultural attraction is a miscellaneous attraction of any sort"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cultural attraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#CulturalEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A cultural event is an organized activity aimed at promoting, celebrating, or preserving artistic or traditional expressions of a community or region."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CulturalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#CulturalEvento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Deportivo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An event is a scheduled public or private activity organized for entertainment, cultural, educational, or promotional purposes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Gastronómico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Gourmet_Madrid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasPrice" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#30"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasRating" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating4_8"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Madrid"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#name" : [ {
+    "@value" : "Restaurant Gourmet Madrid"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#JapaneseRestaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HighRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Denotes a rating that indicates a very positive evaluation, usually close to the maximum score."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "High Rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An hotel is an establishment that provides lodging services to travelers and tourists, typically including amenities like meals, cleaning, and reception."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid24"
+  }, {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HotelStars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the official star classification awarded to hotels based on quality and service standards"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HotelStars"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#ItalianRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A restaurant specializing in Italian cuisine, known for dishes such as pasta, pizza, and regional Italian specialties"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Italian Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Italiana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#JapaneseRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A restaurant specializing in Japanese cuisine, including sushi, sashimi, ramen, and traditional Japanese dishes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Japanese Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Japonesa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#LowRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Denotes a rating that reflects a poor evaluation or low level of satisfaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Low Rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Lujo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#LuxuryHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A luxury hotel is a high-end hotel offering premium services, accommodations, and exclusive amenities to its guests."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "LuxuryHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Madrid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasAttraction" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Museo_Madrid"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasCityId" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasCoordinates" : [ {
+    "@value" : "40.4168,-3.7038"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasHotel" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Palace_Madrid"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasTransport" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Urban_Madrid"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#name" : [ {
+    "@value" : "Madrid"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#MediterraneanRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A restaurant offering dishes inspired by Mediterranean culinary traditions, emphasizing fresh ingredients, olive oil, and healthy recipes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mediterranean Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Mediterránea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#MediumRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Denotes an average rating, representing a moderate level of satisfaction or quality."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medium Rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Metro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An urban, high-capacity public transport system operating on an underground or elevated railway."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Metro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#MexicanRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A restaurant specializing in Mexican cuisine, featuring dishes like tacos, enchiladas, and a variety of spicy flavors."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mexican Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Mexicana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Monument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A monument is a structure or construction of historical, cultural, or artistic significance, often built to commemorate an event or person."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Monument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Monumento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Museo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Museo_Madrid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#attraction_id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasRating" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating3_7"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Madrid"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#name" : [ {
+    "@value" : "Museo Madrid"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Museum"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Museum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A museum is a public space where art objects are displayed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Museum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#MusicEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A music event is an event focused on the performance, enjoyment, or promotion of music, such as concerts, festivals, or recitals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MusicEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Música",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Negocios",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Palace_Madrid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasPrice" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#227"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasRating" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating5_0"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasStars" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#5Stars"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hotel_id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "42"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Madrid"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#name" : [ {
+    "@value" : "Hotel Palace Madrid"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#LuxuryHotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Pamplona",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Park",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A park is a public space with plants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Park"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Parque",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#PlayaAtraccion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Price",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the cost associated with a product, service, or establishment.\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Price"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Reflects the evaluation score given to a product, service, or establishment, typically based on user reviews or expert assessments."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An establishment where meals are prepared and served to customers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Royal_Pamplona",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasPrice" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#116"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasRating" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating4_3"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasStars" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#5Stars"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hotel_id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "43"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Pamplona"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#name" : [ {
+    "@value" : "Hotel Royal Pamplona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#LuxuryHotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Rural",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Sabor_Sevilla",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasPrice" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#72"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasRating" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating4_1"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Sevilla"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#name" : [ {
+    "@value" : "Restaurante Sabor Sevilla"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#restaurant_id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#ItalianRestaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Sevilla",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#SportsEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A sports event is a competition, exhibition, or gathering organized around one or more sports disciplines."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SportsEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Taxi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A vehicle available for hire with a driver, offering point-to-point transport services"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Taxi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#TechnologicEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A technological event is an event focused on technology, innovation, or scientific-technical development, such as fairs, conferences, or product launches."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TechnologicalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Tecnológico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#TouristHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A tourist hotel is a hotel intended for general tourists, typically offering basic to moderate services at affordable prices."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TouristHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Tram",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A rail vehicle that runs on tracks laid in city streets, used for public urban transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tram"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Means or systems used to move people or goods from one place to another"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Turistico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Urban_Madrid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasPrice" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#8.85"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Madrid"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#name" : [ {
+    "@value" : "Urban Madrid"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#transport_id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Metro"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#attraction_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Attraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#avg_price",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#event_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasAttraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasCityId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasCoordinates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Price"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasStars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HotelStars"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasTransport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hotel_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid9"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#price_per_night",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating3_7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#MediumRating"
+  }, {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating3_9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#MediumRating"
+  }, {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating4_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HighRating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating4_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HighRating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating4_8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HighRating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating5_0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HighRating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#restaurant_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#transport_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones/h",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones/r",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+} ]
