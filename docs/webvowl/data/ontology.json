@@ -1,0 +1,1485 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones" ],
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "99",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "76",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "69",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Price",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Price",
+      "en" : "Price"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#72",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "72"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#116",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "116"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#227",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "227"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#56",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "56"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#8.85",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "8.85"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#30",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "30"
+      }
+    } ],
+    "comment" : {
+      "en" : "Indicates the cost associated with a product, service, or establishment.\""
+    },
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Metro",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Metro",
+      "en" : "Metro"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Urban_Madrid",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "Urban_Madrid"
+      }
+    } ],
+    "comment" : {
+      "en" : "An urban, high-capacity public transport system operating on an underground or elevated railway."
+    },
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#ItalianRestaurant",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ItalianRestaurant",
+      "en" : "Italian Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Sabor_Sevilla",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "Sabor_Sevilla"
+      }
+    } ],
+    "comment" : {
+      "en" : "A restaurant specializing in Italian cuisine, known for dishes such as pasta, pizza, and regional Italian specialties"
+    },
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Event",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event",
+      "en" : "Event"
+    },
+    "subClasses" : [ "16", "17", "18", "19", "20" ],
+    "comment" : {
+      "en" : "An event is a scheduled public or private activity organized for entertainment, cultural, educational, or promotional purposes."
+    },
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Hotel",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/page/Hotel",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Hotel",
+      "en" : "Hotel"
+    },
+    "subClasses" : [ "30", "28", "24", "22", "1" ],
+    "comment" : {
+      "en" : "An hotel is an establishment that provides lodging services to travelers and tourists, typically including amenities like meals, cleaning, and reception."
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#City",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/page/City",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "City",
+      "en" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Madrid",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Bilbao",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "Bilbao"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Sevilla",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Pamplona",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "Pamplona"
+      }
+    } ],
+    "comment" : {
+      "en" : "A city is a place where a community of people live"
+    },
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#SportsEvent",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SportsEvent",
+      "en" : "SportsEvent"
+    },
+    "comment" : {
+      "en" : "A sports event is a competition, exhibition, or gathering organized around one or more sports disciplines."
+    },
+    "id" : "17",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Beach",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/page/Beach",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Beach",
+      "en" : "Beach"
+    },
+    "comment" : {
+      "en" : "A beach is a tourist attracion by the seaside."
+    },
+    "id" : "38",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#TouristHotel",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TouristHotel",
+      "en" : "TouristHotel"
+    },
+    "comment" : {
+      "en" : "A tourist hotel is a hotel intended for general tourists, typically offering basic to moderate services at affordable prices."
+    },
+    "id" : "24",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "15", "11", "35", "7", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Bicicle",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bicicle",
+      "en" : "Bycicle"
+    },
+    "comment" : {
+      "en" : "A two-wheeled vehicle powered by pedaling, commonly used for personal transport and recreation."
+    },
+    "id" : "44",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#TechnologicEvent",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TechnologicEvent",
+      "en" : "TechnologicalEvent"
+    },
+    "comment" : {
+      "en" : "A technological event is an event focused on technology, innovation, or scientific-technical development, such as fairs, conferences, or product launches."
+    },
+    "id" : "20",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#MexicanRestaurant",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MexicanRestaurant",
+      "en" : "Mexican Restaurant"
+    },
+    "comment" : {
+      "en" : "A restaurant specializing in Mexican cuisine, featuring dishes like tacos, enchiladas, and a variety of spicy flavors."
+    },
+    "id" : "48",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#CulturalEvent",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalEvent",
+      "en" : "CulturalEvent"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Congreso_Bilbao",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "comment" : {
+        "undefined" : "A beach is a seaside tourist attraction."
+      },
+      "labels" : {
+        "IRI-based" : "Congreso_Bilbao",
+        "en" : "Beach"
+      }
+    } ],
+    "comment" : {
+      "en" : "A cultural event is an organized activity aimed at promoting, celebrating, or preserving artistic or traditional expressions of a community or region."
+    },
+    "id" : "19",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Attraction",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attraction",
+      "en" : "Attraction"
+    },
+    "subClasses" : [ "63", "61", "53", "38", "55" ],
+    "comment" : {
+      "en" : "An attraction is a place or point of interest that draws visitors for its cultural, historical, natural, or recreational value."
+    },
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#CulturalAttraction",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalAttraction",
+      "en" : "Cultural attraction"
+    },
+    "comment" : {
+      "en" : "A cultural attraction is a miscellaneous attraction of any sort"
+    },
+    "id" : "61",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Monument",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Monument",
+      "en" : "Monument"
+    },
+    "comment" : {
+      "en" : "A monument is a structure or construction of historical, cultural, or artistic significance, often built to commemorate an event or person."
+    },
+    "id" : "53",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Museum",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Museum",
+      "en" : "Museum"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Museo_Madrid",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "Museo_Madrid"
+      }
+    } ],
+    "comment" : {
+      "en" : "A museum is a public space where art objects are displayed"
+    },
+    "id" : "63",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#LuxuryHotel",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LuxuryHotel",
+      "en" : "LuxuryHotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Royal_Pamplona",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "Royal_Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Palace_Madrid",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "Palace_Madrid"
+      }
+    } ],
+    "comment" : {
+      "en" : "A luxury hotel is a high-end hotel offering premium services, accommodations, and exclusive amenities to its guests."
+    },
+    "id" : "30",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Restaurant",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "en" : "Restaurant"
+    },
+    "subClasses" : [ "86", "84", "48", "6", "78" ],
+    "comment" : {
+      "en" : "An establishment where meals are prepared and served to customers."
+    },
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Park",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Park",
+      "en" : "Park"
+    },
+    "comment" : {
+      "en" : "A park is a public space with plants"
+    },
+    "id" : "55",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#CulinaryEvent",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulinaryEvent",
+      "en" : "Culinary event"
+    },
+    "comment" : {
+      "en" : "Culinary event is an event related to gastronomy, where food, beverages, or culinary traditions are showcased, promoted, or celebrated."
+    },
+    "id" : "16",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#JapaneseRestaurant",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "JapaneseRestaurant",
+      "en" : "Japanese Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Gourmet_Madrid",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "Gourmet_Madrid"
+      }
+    } ],
+    "comment" : {
+      "en" : "A restaurant specializing in Japanese cuisine, including sushi, sashimi, ramen, and traditional Japanese dishes."
+    },
+    "id" : "78",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#BusinessHotel",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusinessHotel",
+      "en" : "BusinessHotel"
+    },
+    "comment" : {
+      "en" : "A business hotel is a hotel designed to accommodate business travelers, often offering services such as conference rooms, Wi-Fi, and business centers."
+    },
+    "id" : "22",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#BeachHotel",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeachHotel",
+      "en" : "BeachHotel"
+    },
+    "comment" : {
+      "en" : "A beach hotel is a hotel located near or with direct access to the beach, catering primarily to vacationers."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Rating",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rating",
+      "en" : "Rating"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating3_9",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "rating3_9"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating3_7",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "rating3_7"
+      }
+    } ],
+    "subClasses" : [ "73", "82", "80" ],
+    "comment" : {
+      "en" : "Reflects the evaluation score given to a product, service, or establishment, typically based on user reviews or expert assessments."
+    },
+    "id" : "74"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "97",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "5", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "99"
+  }, {
+    "instances" : 0,
+    "union" : [ "35", "7", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "76"
+  }, {
+    "instances" : 0,
+    "union" : [ "15", "35", "7", "5", "2" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#CountrysideHotel",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CountrysideHotel",
+      "en" : "CountrysideHotel"
+    },
+    "comment" : {
+      "en" : "A countryside hote is a hotel situated in rural or natural settings, ideal for guests seeking relaxation or eco-tourism experiences."
+    },
+    "id" : "28",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#AndalusianRestaurant",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AndalusianRestaurant",
+      "en" : "Andalusian Restaurant"
+    },
+    "comment" : {
+      "en" : "A restaurant specializing in Andalusian cuisine, characterized by rich Mediterranean flavors and regional Spanish dishes"
+    },
+    "id" : "84",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#MusicEvent",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MusicEvent",
+      "en" : "MusicEvent"
+    },
+    "comment" : {
+      "en" : "A music event is an event focused on the performance, enjoyment, or promotion of music, such as concerts, festivals, or recitals."
+    },
+    "id" : "18",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Transport",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport",
+      "en" : "Transport"
+    },
+    "subClasses" : [ "71", "4", "65", "44", "57" ],
+    "comment" : {
+      "en" : "Means or systems used to move people or goods from one place to another"
+    },
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#MediterraneanRestaurant",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MediterraneanRestaurant",
+      "en" : "Mediterranean Restaurant"
+    },
+    "comment" : {
+      "en" : "A restaurant offering dishes inspired by Mediterranean culinary traditions, emphasizing fresh ingredients, olive oil, and healthy recipes."
+    },
+    "id" : "86",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HotelStars",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HotelStars",
+      "en" : "HotelStars"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#3Stars",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "3Stars"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#5Stars",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "5Stars"
+      }
+    } ],
+    "comment" : {
+      "en" : "Represents the official star classification awarded to hotels based on quality and service standards"
+    },
+    "id" : "92"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#HighRating",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HighRating",
+      "en" : "High Rating"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating4_8",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "rating4_8"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating4_1",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "rating4_1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating5_0",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "rating5_0"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating4_3",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "rating4_3"
+      }
+    } ],
+    "comment" : {
+      "en" : "Denotes a rating that indicates a very positive evaluation, usually close to the maximum score."
+    },
+    "id" : "73",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Tram",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tram",
+      "en" : "Tram"
+    },
+    "comment" : {
+      "en" : "A rail vehicle that runs on tracks laid in city streets, used for public urban transport"
+    },
+    "id" : "57",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Taxi",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Taxi",
+      "en" : "Taxi"
+    },
+    "comment" : {
+      "en" : "A vehicle available for hire with a driver, offering point-to-point transport services"
+    },
+    "id" : "71",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#MediumRating",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MediumRating",
+      "en" : "Medium Rating"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating3_9",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "rating3_9"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#rating3_7",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+      "labels" : {
+        "IRI-based" : "rating3_7"
+      }
+    } ],
+    "comment" : {
+      "en" : "Denotes an average rating, representing a moderate level of satisfaction or quality."
+    },
+    "id" : "82",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#Bus",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bus",
+      "en" : "Bus"
+    },
+    "comment" : {
+      "en" : "A road vehicle designed to carry multiple passengers along predetermined routes"
+    },
+    "id" : "65",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#LowRating",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LowRating",
+      "en" : "Low Rating"
+    },
+    "comment" : {
+      "en" : "Denotes a rating that reflects a poor evaluation or low level of satisfaction"
+    },
+    "id" : "80",
+    "superClasses" : [ "74" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "95",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "96",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "101",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hotel_id",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hotel_id"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasCoordinates",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasCoordinates"
+    },
+    "domain" : "11",
+    "attributes" : [ "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#transport_id",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "transport_id"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "13"
+  }, {
+    "range" : "2",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "2",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "15",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "25"
+  }, {
+    "range" : "15",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "2",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "27"
+  }, {
+    "range" : "2",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "15",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "15",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "15",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#attraction_id",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "attraction_id"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasTransport",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasTransport"
+    },
+    "domain" : "11",
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#restaurant_id",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "restaurant_id"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#name",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "name"
+    },
+    "domain" : "43",
+    "attributes" : [ "datatype" ],
+    "id" : "50"
+  }, {
+    "range" : "35",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "35",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
+  }, {
+    "range" : "35",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
+  }, {
+    "range" : "5",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "range" : "5",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasCityId",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "hasCityId"
+    },
+    "domain" : "11",
+    "attributes" : [ "datatype" ],
+    "id" : "59"
+  }, {
+    "range" : "35",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "60"
+  }, {
+    "range" : "35",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "5",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasDate",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "hasDate"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype" ],
+    "id" : "66"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#isLocatedIn",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "isLocatedIn"
+    },
+    "domain" : "69",
+    "attributes" : [ "object" ],
+    "id" : "68"
+  }, {
+    "range" : "5",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
+  }, {
+    "range" : "74",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasRating",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "hasRating"
+    },
+    "domain" : "76",
+    "attributes" : [ "object" ],
+    "id" : "75"
+  }, {
+    "range" : "7",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  }, {
+    "range" : "74",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "79"
+  }, {
+    "range" : "74",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "81"
+  }, {
+    "range" : "7",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "7",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "85"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "87"
+  }, {
+    "range" : "7",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasRestaurant",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasRestaurant"
+    },
+    "domain" : "11",
+    "attributes" : [ "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasEvent",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasEvent"
+    },
+    "domain" : "11",
+    "attributes" : [ "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasStars",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "hasStars"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#avg_price",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "avg_price"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "range" : "63",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "94"
+  }, {
+    "range" : "61",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasCoordinates",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "hasCoordinates"
+    },
+    "domain" : "11",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#event_id",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "event_id"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype" ],
+    "id" : "98"
+  }, {
+    "range" : "53",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "100"
+  }, {
+    "range" : "55",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#price_per_night",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "price_per_night"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasAttraction",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "hasAttraction"
+    },
+    "domain" : "11",
+    "attributes" : [ "object" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasHotel",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasHotel"
+    },
+    "domain" : "11",
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones#hasPrice",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/Turismo_Inteligente_Recomendaciones",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasPrice"
+    },
+    "domain" : "99",
+    "attributes" : [ "object" ],
+    "id" : "105"
+  } ]
+}
